@@ -5,7 +5,6 @@ A jQuery plugin that allows you to do more interesting :visited styling for hype
 
 Inspired by and reimplemented in jQuery from Joel Califa's blog post here: http://joelcalifa.com/blog/revisiting-visited/.
 
-***
 ## Download
 Run one of these commands in your bash according to your needs.
 
