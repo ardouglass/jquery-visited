@@ -1,0 +1,42 @@
+{
+  "name": "jquery-visited",
+  "description": "A hack to do more engaging :visited anchor styling.",
+  "homepage": "https://github.com/ardouglass/jquery-visited",
+  "authors": [{
+    "name": "Andrew Douglass",
+    "email": "andrew@dou.glass",
+    "homepage": "https://github.com/ardouglass"
+  }],
+  "license": "MIT",
+  "keywords": [
+    "visited",
+    "hack",
+    "css-hack",
+    "jquery",
+    "plugin",
+    "jquery-plugin",
+    "plug-in",
+    "javascript",
+    "js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ardouglass/jquery-visited.git"
+  },
+  "main": "dist/jquery.visited.js",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "npm-debug.log",
+    "Gruntfile.js",
+    "package.json",
+    "demo",
+    "src",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1"
+  }
+}
