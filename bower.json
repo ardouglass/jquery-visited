@@ -29,10 +29,6 @@
     "bower_components",
     "node_modules",
     "npm-debug.log",
-    "Gruntfile.js",
-    "package.json",
-    "demo",
-    "src",
     "test",
     "tests"
   ],
