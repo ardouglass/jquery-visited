@@ -17,11 +17,11 @@
 	 */
   $.fn.visited = function() {
     $(this).each(function(index, element) {
-      console.log(element);
       // Checks that it's an internal link, then checks localStorage for item's existence
       if ( element.host == window.location.host
       &&   localStorage.getItem('visited:' + element.pathname)
       ||   localStorage.getItem('visited:' + element.pathname + '/') ) {
+        // can't use $().data, because it doesn't actually update the html
         $(element).attr('data-visited', true);
       }
     });
