@@ -1,9 +1,14 @@
 jquery-visited
 ===
 
+
+
 A jQuery plugin that allows you to do more interesting :visited styling for hyperlinks. [Because bad apples blew it for us](https://developer.mozilla.org/en-US/docs/Web/CSS/Privacy_and_the_:visited_selector).
 
 Inspired by and reimplemented in jQuery from Joel Califa's blog post here: http://joelcalifa.com/blog/revisiting-visited/.
+
+### Just Show Me The Demo
+Here you go, buddy: https://ardouglass.github.io/jquery-visited/
 
 ## Download
 Run one of these commands in your bash according to your needs.
