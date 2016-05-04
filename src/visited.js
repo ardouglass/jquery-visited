@@ -21,7 +21,8 @@
       if ( element.host == window.location.host
       &&   localStorage.getItem('visited:' + element.pathname)
       ||   localStorage.getItem('visited:' + element.pathname + '/') ) {
-        $(element).data('visited', true);
+        // can't use $().data, because it doesn't actually update the html
+        $(element).attr('data-visited', true);
       }
     });
   };
