@@ -1,0 +1,14 @@
+{
+  "name": "jquery-visited-demo",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-visited": "^1.0.0"
+  }
+}

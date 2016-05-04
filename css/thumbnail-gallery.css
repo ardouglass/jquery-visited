@@ -1,0 +1,75 @@
+body {
+  padding-top: 70px;
+}
+
+.story {
+  margin-bottom: 30px;
+}
+
+
+/* Unread State */
+
+.story a {
+  text-decoration: none;
+  color: #ccc;
+  height: 200px;
+  background: no-repeat center center;
+  background-size: 120%;
+
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+
+  display: block;
+  border: solid 1px #ddd;
+  border-radius: 6px;
+}
+
+.story a .title {
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 140px;
+  font-size: 20px;
+  font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+}
+
+.story a .title:before {
+  margin-right: 6px;
+  font: normal normal normal 14px/1 FontAwesome;
+  color: #4582ec;
+  content: "\f111";
+}
+
+
+/* Unread Hover State */
+
+.story a:hover {
+  background-size: 100%;
+  color: #fff;
+}
+
+.story a:hover .title {
+
+}
+
+
+/* Read State */
+
+.story a[data-visited] {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.story a[data-visited] .title {
+  font-weight: normal;
+  text-decoration: line-through;
+}
+
+.story a[data-visited] .title:before {
+  content: "";
+}
+
+footer {
+  margin: 50px 0;
+}
