@@ -34,24 +34,25 @@ The code below is a before/after example.
 <script type="text/javascript" src="jquery.visited.js"></script>
 <script type="text/javascript">
   $(document).ready(function() {
-    $('.items a').visited();
+    $('.items a').visited('visited-link');
+    // with no args, it will apply data-visited='true' instead of adding a css class
   });
 </script>
 
 <!-- After running, assuming you've visited /stuff since jquery.visited.js was included -->
 <div class="items">
-  <a href="/stuff" data-visited="true">Stuff</a>
+  <a href="/stuff" class="visited-link">Stuff</a>
   <a href="/more-stuff">More Stuff</a>
   <a href="/the-best-stuff">The Best Stuff</a>
 </div>
 
 <!-- Why this is useful: modify things not allowed by :visited -->
 <style type="text/css">
-  a[data-visited] {
+  a.visited-link {
     background-image: url('some-image.png');
   }
 
-  a[data-visited]:after {
+  a.visited-link:after {
     content: 'You already saw this one';
   }
 </style>
