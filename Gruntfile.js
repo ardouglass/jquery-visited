@@ -3,6 +3,10 @@ module.exports = function( grunt ) {
 	grunt.initConfig({
 
     copy: {
+      jquery: {
+        src: "bower_components/jquery/dist/jquery.js",
+        dest: "js/jquery.js"
+      },
       jqueryVisited: {
         src: "bower_components/jquery-visited/dist/jquery.visited.js",
         dest: "js/jquery.visited.js"

@@ -56,17 +56,17 @@ body {
 
 /* Read State */
 
-.story a[data-visited] {
+.story a.visited-link {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 
-.story a[data-visited] .title {
+.story a.visited-link .title {
   font-weight: normal;
   text-decoration: line-through;
 }
 
-.story a[data-visited] .title:before {
+.story a.visited-link .title:before {
   content: "";
 }
 

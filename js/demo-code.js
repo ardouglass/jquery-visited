@@ -1,3 +1,3 @@
 $(document).ready(function() {
-  $('.stories a').visited();
+  $('.stories a').visited('visited-link');
 });

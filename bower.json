@@ -9,6 +9,6 @@
     "tests"
   ],
   "dependencies": {
-    "jquery-visited": "^1.0.0"
+    "jquery-visited": "^1.1.0"
   }
 }
